@@ -6,7 +6,9 @@ The features selected for this dataset come from the accelerometer and gyroscope
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
 
-These signals were used to estimate 561 variables in the feature vector. These 561variables are used as input datasets of both the training data (X _ train) and the test data (X _ test).
+These signals were used to estimate 561 variables in the feature vector. These 561variables are used as input to the script in the form of training data (X _ train) and test data (X _ test).
+
+The scope of this phase of the project is to process the input datasets (X _ train and X _ test) linked to the activities carried out and to the subjects (volunteers) carrying out these activities. Then, come up with a final tidy data set with the average of measurements for the **mean** and **standard deviation** variables grouped by each activity and each subject (volunteer). Hence, the output dataset (tidyData) consists of 88 variables (including the subject and activity variables). A detailed description of these variables is shown below.
 
 ##Notes on variables values and names
  * Activity classes (numbers) have been replaced by their corresponding descriptive labels for better readability and as per project requirements.  E.g. activity class 1 is replaced by "WALKING", and so for other activities.
